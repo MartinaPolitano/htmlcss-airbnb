@@ -7,11 +7,36 @@
 .city {
   position: relative;
   height: 100vh;
+  width: calc(100% - 20px)auto;
   background-size: cover;
   margin: 10px;
+  background-repeat: no-repeat;
+
 }
 
 
 #roma {
   background-image: url(https://www.ilfaroonline.it/photogallery_new/images/2019/12/roma-117258.660x368.jpg);
+
+}
+
+#napoli {
+  background-image: url(https://lh3.googleusercontent.com/proxy/TdzViFTavH4fs46nbR_d0i8Bm5xr3ySHnkoYLJjr7tvM5sDJURV0KS85aiwI23IcrqmYcy0Zpaymhd6KEvl-);
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100vh;
+  background-color:
+}
+
+.name {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% : -50px);
 }
